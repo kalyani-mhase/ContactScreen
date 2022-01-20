@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84472BEA2798124F00149947 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472BE92798124F00149947 /* NextViewController.swift */; };
+		84472BEE279813C800149947 /* NextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472BEC279813C800149947 /* NextTableViewCell.swift */; };
+		84472BEF279813C800149947 /* NextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84472BED279813C800149947 /* NextTableViewCell.xib */; };
 		84E09DCC2797D7E400DE8CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E09DCB2797D7E400DE8CB2 /* AppDelegate.swift */; };
 		84E09DCE2797D7E400DE8CB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E09DCD2797D7E400DE8CB2 /* SceneDelegate.swift */; };
 		84E09DD02797D7E400DE8CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E09DCF2797D7E400DE8CB2 /* ViewController.swift */; };
 		84E09DD32797D7E400DE8CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E09DD12797D7E400DE8CB2 /* Main.storyboard */; };
 		84E09DD52797D7E500DE8CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E09DD42797D7E500DE8CB2 /* Assets.xcassets */; };
 		84E09DD82797D7E500DE8CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E09DD62797D7E500DE8CB2 /* LaunchScreen.storyboard */; };
+		84E09DE12797D94D00DE8CB2 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E09DDF2797D94D00DE8CB2 /* ContactTableViewCell.swift */; };
+		84E09DE22797D94D00DE8CB2 /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E09DE02797D94D00DE8CB2 /* ContactTableViewCell.xib */; };
+		84E09DE42797E84D00DE8CB2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E09DE32797E84D00DE8CB2 /* Extension.swift */; };
+		84E09DE92797EBFB00DE8CB2 /* ContactTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E09DE72797EBFB00DE8CB2 /* ContactTableViewCell1.swift */; };
+		84E09DEA2797EBFB00DE8CB2 /* ContactTableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E09DE82797EBFB00DE8CB2 /* ContactTableViewCell1.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84472BE92798124F00149947 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		84472BEC279813C800149947 /* NextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTableViewCell.swift; sourceTree = "<group>"; };
+		84472BED279813C800149947 /* NextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextTableViewCell.xib; sourceTree = "<group>"; };
 		84E09DC82797D7E400DE8CB2 /* ContactScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E09DCB2797D7E400DE8CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84E09DCD2797D7E400DE8CB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,11 @@
 		84E09DD42797D7E500DE8CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E09DD72797D7E500DE8CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E09DD92797D7E500DE8CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E09DDF2797D94D00DE8CB2 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		84E09DE02797D94D00DE8CB2 /* ContactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		84E09DE32797E84D00DE8CB2 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		84E09DE72797EBFB00DE8CB2 /* ContactTableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell1.swift; sourceTree = "<group>"; };
+		84E09DE82797EBFB00DE8CB2 /* ContactTableViewCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell1.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +53,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84472BEB2798137D00149947 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84E09DDF2797D94D00DE8CB2 /* ContactTableViewCell.swift */,
+				84E09DE72797EBFB00DE8CB2 /* ContactTableViewCell1.swift */,
+				84472BEC279813C800149947 /* NextTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8473658C2799166C00D3B6EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84472BE92798124F00149947 /* NextViewController.swift */,
+				84E09DCF2797D7E400DE8CB2 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8473658D2799167B00D3B6EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84E09DD12797D7E400DE8CB2 /* Main.storyboard */,
+				84E09DE02797D94D00DE8CB2 /* ContactTableViewCell.xib */,
+				84E09DE82797EBFB00DE8CB2 /* ContactTableViewCell1.xib */,
+				84472BED279813C800149947 /* NextTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8473658E279916BA00D3B6EC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				84E09DD42797D7E500DE8CB2 /* Assets.xcassets */,
+				84E09DCB2797D7E400DE8CB2 /* AppDelegate.swift */,
+				84E09DCD2797D7E400DE8CB2 /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		84E09DBF2797D7E400DE8CB2 = {
 			isa = PBXGroup;
 			children = (
+				84E09DE32797E84D00DE8CB2 /* Extension.swift */,
 				84E09DCA2797D7E400DE8CB2 /* ContactScreen */,
 				84E09DC92797D7E400DE8CB2 /* Products */,
 			);
@@ -56,13 +113,12 @@
 		84E09DCA2797D7E400DE8CB2 /* ContactScreen */ = {
 			isa = PBXGroup;
 			children = (
-				84E09DCB2797D7E400DE8CB2 /* AppDelegate.swift */,
-				84E09DCD2797D7E400DE8CB2 /* SceneDelegate.swift */,
-				84E09DCF2797D7E400DE8CB2 /* ViewController.swift */,
-				84E09DD12797D7E400DE8CB2 /* Main.storyboard */,
-				84E09DD42797D7E500DE8CB2 /* Assets.xcassets */,
+				8473658E279916BA00D3B6EC /* Common */,
+				8473658D2799167B00D3B6EC /* Views */,
 				84E09DD62797D7E500DE8CB2 /* LaunchScreen.storyboard */,
 				84E09DD92797D7E500DE8CB2 /* Info.plist */,
+				84472BEB2798137D00149947 /* Cells */,
+				8473658C2799166C00D3B6EC /* Controllers */,
 			);
 			path = ContactScreen;
 			sourceTree = "<group>";
@@ -125,7 +181,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E09DE22797D94D00DE8CB2 /* ContactTableViewCell.xib in Resources */,
 				84E09DD82797D7E500DE8CB2 /* LaunchScreen.storyboard in Resources */,
+				84472BEF279813C800149947 /* NextTableViewCell.xib in Resources */,
+				84E09DEA2797EBFB00DE8CB2 /* ContactTableViewCell1.xib in Resources */,
 				84E09DD52797D7E500DE8CB2 /* Assets.xcassets in Resources */,
 				84E09DD32797D7E400DE8CB2 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +197,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E09DE12797D94D00DE8CB2 /* ContactTableViewCell.swift in Sources */,
+				84472BEA2798124F00149947 /* NextViewController.swift in Sources */,
 				84E09DD02797D7E400DE8CB2 /* ViewController.swift in Sources */,
 				84E09DCC2797D7E400DE8CB2 /* AppDelegate.swift in Sources */,
+				84472BEE279813C800149947 /* NextTableViewCell.swift in Sources */,
+				84E09DE42797E84D00DE8CB2 /* Extension.swift in Sources */,
+				84E09DE92797EBFB00DE8CB2 /* ContactTableViewCell1.swift in Sources */,
 				84E09DCE2797D7E400DE8CB2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
